@@ -1,0 +1,6 @@
+[submodule "time-tracker-backend"]
+	path = time-tracker-backend
+	url = https://github.com/alexperegrina/time-tracker-backend.git
+[submodule "time-tracker-frontend"]
+	path = time-tracker-frontend
+	url = https://github.com/alexperegrina/time-tracker-frontend.git
