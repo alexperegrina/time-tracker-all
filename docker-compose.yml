@@ -1,0 +1,23 @@
+services:
+  frontend:
+    extends:
+      file: ./time-tracker-frontend/docker-compose.yml
+      service: frontend
+
+  backend:
+    extends:
+      file: ./time-tracker-backend/docker-compose.yml
+      service: backend
+
+  db:
+    extends:
+      file: ./time-tracker-backend/docker-compose.yml
+      service: db
+
+  nginx:
+    extends:
+      file: ./time-tracker-backend/docker-compose.yml
+      service: nginx
+
+volumes:
+  db_data:
